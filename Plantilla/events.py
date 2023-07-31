@@ -12,7 +12,7 @@ class EventHandler:
 
         EventHandler.events = pygame.event.get()
 
-    def keydown(key) -> bool:  # TODO definir tipo de parámetro key
+    def keydown(key: int) -> bool:  # TODO definir tipo de parámetro key
         """Detecta input del teclado."""
 
         for event in EventHandler.events:
