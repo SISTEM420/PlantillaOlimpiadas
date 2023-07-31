@@ -1,0 +1,5 @@
+# Librerías
+
+numpy==1.25.1
+opensimplex==0.4.5
+pygame==2.5.0
