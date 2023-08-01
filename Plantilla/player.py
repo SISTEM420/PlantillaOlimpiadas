@@ -7,7 +7,7 @@ from sprite import Entity
 
 
 class Player(pygame.sprite.Sprite):
-    def __init__(self, groups: pygame.Group, image: pygame.Surface, position: tuple, parameters: dict):
+    def __init__(self, groups, image: pygame.Surface, position: tuple, parameters: dict):
         super().__init__(groups)
         self.image = image
 
